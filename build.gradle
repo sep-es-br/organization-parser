@@ -20,7 +20,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
 
 
-    implementation 'com.github.sep-es-br:pmo-core-organization-parser:1.0.1'
+    implementation 'com.github.sep-es-br:pmo-core-organization-parser:6c66d0a'
 
 }
 
