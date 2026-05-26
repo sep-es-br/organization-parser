@@ -18,6 +18,7 @@ public class OrganizationParser
 
     private static final String INTEGRATION = "GOVES";
     private static final String SUFFIX = "ES";
+    private static final String SECTOR = "PUBLIC";
     private static final String GUID = "guid";
     private static final String SIGLA = "sigla";
     private static final String RAZAO_SOCIAL = "razaoSocial";
@@ -57,7 +58,8 @@ public class OrganizationParser
                     (String) o.get(SIGLA),
                     (String) o.get(RAZAO_SOCIAL),
                     INTEGRATION,
-                    SUFFIX
+                    SUFFIX,
+                    SECTOR
                 );
 
                 result.add(dto);
