@@ -53,6 +53,10 @@ public class OrganizationParser
 
                 JSONObject o = (JSONObject) obj;
 
+                if (GOVES_GUID.equals((String) o.get(GUID))) {
+                    continue;
+                }
+
                 OrganizationDto dto = new OrganizationDto(
                     (String) o.get(GUID),
                     (String) o.get(SIGLA),
